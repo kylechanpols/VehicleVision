@@ -1,0 +1,9 @@
+clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1
+craigslistscraper==1.1.2
+joblib==1.5.1
+langchain==0.3.26
+langchain-ollama==0.3.4
+numpy==2.3.1
+ollama==0.5.1
+pandas==2.3.1
+torch==2.7.1+cu126
