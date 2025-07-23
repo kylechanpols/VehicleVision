@@ -30,7 +30,7 @@ def worker(ex: Listing):
         logger.warning(str(uid)+": Price is 0, this listing will be ignored.")
         return None
     if not ex.text_features or ex.text_features == {}:
-        logger.warning(str(uid)+": Price is 0, this listing will be ignored.")
+        logger.warning(str(uid)+": Has no parsed text features, this listing will be ignored.")
         return None
     suv_idx = ex.clip_class_prompts.index('an SUV')
     convertible_idx = ex.clip_class_prompts.index('a convertible')
