@@ -6,3 +6,7 @@ img/
 */__pycache__/
 __pyache__/
 *.pyc
+
+.mlops/
+
+VehicleVision/models/
