@@ -28,5 +28,7 @@ For the modeling process and outcome, please consult `sandbox/modeling.ipynb`.
 # API 
 
 An API is available for making model inference with unseen vehicle photos and listing text. The API implementation can be found in `VehicleVision/VehicleVision/api`. The API is implemented using FastAPI v0.123.5. 
+
 The API must be hosted by using `fastapi run app.py`.
+
 After processing the photos and listing text, pass the processed data as a URL query for the `predict` method inside the app. For example: `http://www.vehiclevision.com/predict?year=2020&make=toyota&model_name=corolla&mileage=120000&title_status=Clean&transmission=Automatic&`. The API then returns a JSON response of the predicted selling price of the vehicle.
